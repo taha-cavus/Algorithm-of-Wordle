@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Deneme</title>
+
+    <style>
+        body{
+            background-color:teal;
+        }
+        .main div{
+            margin: 10px 0;
+            text-align: center;
+        }
+        button{
+            text-align: center;
+            width: 60px;
+            height: 60px;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            background-color: black;
+            color: red;
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+        .inp{
+            margin-top: 20px;
+        }
+        input{
+            font-size: 4rem;
+            width: 250px;
+            height: 90px;
+            border: 3px solid black;
+        }
+        .enter{
+            margin-top: 10px;
+            width: 150px;
+            cursor: pointer;
+        }
+        .enter:hover{
+            margin-top: 10px;
+            width: 150px;
+            cursor: pointer;
+            background-color: black;
+            color: red;
+        }
+        .screen{
+            margin-top: 15px;
+        }
+        .inpText:hover{
+            border: 15px yellow double;
+            text-align: center;
+        }
+        .inpText{
+            text-align: center;
+        }
+        .inpText:focus{
+            text-align: center;
+            border: 15px yellow double;
+        }
+        .screenText{
+            color: white;
+        }
+        .alert{
+            margin-top: 10px;
+            width: 150px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>      
+    <div class="nav">
+
+    </div>
+    <div class="main">
+        <div class="first">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <div class="second">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <div class="third">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <div class="fourth">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <div class="five">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <div class="screen">
+            <h1 class="screenText"> </h1>
+        </div>
+    
+        <div class="inp">
+            <input class="inpText" maxlength="5"   type="text"> <br>
+            <button class="enter">ENTER</button>
+            <button class="alert">Words </button>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
